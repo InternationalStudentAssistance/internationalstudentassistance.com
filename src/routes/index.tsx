@@ -1,5 +1,5 @@
 import { component$, Resource, useResource$ } from "@builder.io/qwik";
-import { useLocation } from "@builder.io/qwik-city";
+import { useLocation, DocumentHead } from "@builder.io/qwik-city";
 import { getContent, RenderContent, getBuilderSearchParams } from "@builder.io/sdk-qwik";
 
 export const BUILDER_PUBLIC_API_KEY = '2d86af9fbb854700ab69c5d05e1bf5b9';
@@ -32,3 +32,15 @@ export default component$(() => {
     />
   );
 });
+
+
+export const head: DocumentHead = {
+  title: "International Student Assistance",
+  meta: [
+    {
+      name: "description",
+      content:
+        "The most helpful place on the internet for international students.",
+    },
+  ],
+};
