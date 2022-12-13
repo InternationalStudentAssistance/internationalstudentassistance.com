@@ -1,1 +1,0 @@
-import{K as e,f as r,S as n}from"./q-26646f03.js";const a=t=>e("span",{class:"builder-text",get dangerouslySetInnerHTML(){return t.text},[r]:{dangerouslySetInnerHTML:n(t,"text")}});export{a as s_15p0cKUxgIE};
