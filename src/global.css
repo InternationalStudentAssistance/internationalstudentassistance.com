@@ -10,3 +10,248 @@
  @tailwind components;
  @tailwind utilities;
  
+/* Base styles */
+
+html {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 18px;
+
+  line-height: 1.5;
+
+  color: #333;
+
+  background-color: #fff;
+
+}
+
+ 
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 600;
+
+  color: #444;
+
+}
+
+ 
+
+p {
+
+  margin-bottom: 1.5rem;
+
+}
+
+ 
+
+/* Colors */
+
+.bg-yellow-500 {
+
+  background-color: #FFC107;
+
+}
+
+ 
+
+.text-yellow-500 {
+
+  color: #FFC107;
+
+}
+
+ 
+
+/* Borders */
+
+.border-2 {
+
+  border-width: 2px;
+
+}
+
+ 
+
+.border-yellow-500 {
+
+  border-color: #FFC107;
+
+}
+
+ 
+
+/* Layout */
+
+.container {
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 0 1.5rem;
+
+}
+
+ 
+
+/* Header */
+
+header {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 2rem 0;
+
+}
+
+ 
+
+header .logo {
+
+  font-size: 1.5rem;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+}
+
+ 
+
+/* Main content */
+
+main {
+
+  padding: 3rem 0;
+
+}
+
+ 
+
+/* Footer */
+
+footer {
+
+  background-color: #444;
+
+  color: #fff;
+
+  padding: 2rem 0;
+
+}
+
+ 
+
+/* Buttons */
+
+.btn {
+
+  display: inline-block;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  background-color: #FFC107;
+
+  color: #fff;
+
+  border-radius: 0.5rem;
+
+  padding: 1rem 2rem;
+
+  cursor: pointer;
+
+}
+
+ 
+
+.btn:hover {
+
+  background-color: #FFA000;
+
+}
+
+ 
+
+/* Forms */
+
+form {
+
+  max-width: 500px;
+
+  margin: 0 auto;
+
+}
+
+ 
+
+label {
+
+  display: block;
+
+  margin-bottom: 0.5rem;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+}
+
+ 
+
+input[type="text"],
+
+input[type="email"],
+
+input[type="password"] {
+
+  width: 100%;
+
+  border: 1px solid #ddd;
+
+  border-radius: 0.5rem;
+
+  padding: 1rem;
+
+  font-size: 1rem;
+
+}
+
+ 
+
+textarea {
+
+  width: 100%;
+
+  border: 1px solid #ddd;
+
+  border-radius: 0.5rem;
+
+  padding: 1rem;
+
+  font-size: 1rem;
+
+  resize: none;
+
+}
+
+ 
+
+.form-error {
+
+  color: #f44336;
+
+  margin-top: 0.5rem;
+
+}
